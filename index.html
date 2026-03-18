@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tonny Pizzaria</title>
+  </head>
+  <body>
+    <section class="relative h-screen">
+      <img
+        src="./img/pizza_back.png"
+        alt="pizza"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <div
+        class="absolute inset-0"
+        style="
+          background: linear-gradient(
+            to bottom,
+            rgba(242, 119, 6, 0.75) 30%,
+            rgba(255, 255, 255, 0.011) 100%
+          );
+        "
+      ></div>
+
+      <div class="relative z-10 flex flex-col h-full px-16 py-10">
+        <header class="flex items-center gap-6">
+          <img src="./img/pizza_marca_logo.png" alt="logo" class="w-32" />
+          <h1 class="font-lobster text-white text-5xl leading-tight">
+            Tonny <br />
+            Pizzaria
+          </h1>
+        </header>
+
+        <div class="mt-auto mb-16 max-w-sm">
+          <h2
+            class="font-inter font-bold text-white text-4xl leading-tight mb-4"
+          >
+            As melhores pizzas da cidade
+          </h2>
+          <p class="font-inter text-white text-base">
+            Se você está buscando uma deliciosa pizza para saciar a sua fome
+            você acabou de encontrar o lugar certo!
+          </p>
+        </div>
+
+        <div class="flex justify-end mb-6">
+          <button
+            class="font-inter font-bold bg-white text-orange-1 px-12 py-4 tracking-widest rounded-xl"
+          >
+            Comerçar
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
