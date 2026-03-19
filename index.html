@@ -11,21 +11,14 @@
     <title>Tonny Pizzaria</title>
   </head>
   <body>
-    <section class="relative h-screen">
+    <div class="relative h-screen">
       <img
         src="./img/pizza_back.png"
         alt="pizza"
         class="absolute inset-0 w-full h-full object-cover"
       />
       <div
-        class="absolute inset-0"
-        style="
-          background: linear-gradient(
-            to bottom,
-            rgba(242, 119, 6, 0.75) 30%,
-            rgba(255, 255, 255, 0.011) 100%
-          );
-        "
+        class="absolute inset-0 bg-linear-to-b from-[rgba(255,125,3,0.74)] from-70% to-transparent"
       ></div>
 
       <div class="relative z-10 flex flex-col h-full px-16 py-10">
@@ -43,7 +36,7 @@
           >
             As melhores pizzas da cidade
           </h2>
-          <p class="font-inter text-white text-base">
+          <p class="font-inter text-white text-lg">
             Se você está buscando uma deliciosa pizza para saciar a sua fome
             você acabou de encontrar o lugar certo!
           </p>
@@ -53,12 +46,12 @@
           class="flex justify-end mb-6 hover:scale-(1.2) transition-transform"
         >
           <button
-            class="font-inter font-bold bg-white text-orange-1 px-12 py-4 rounded-xl hover:scale-105 transition-all duration-400"
+            class="font-inter font-bold bg-white text-orange-1 px-12 py-4 rounded-xl hover:scale-105 transition-all duration-200 cursor-pointer"
           >
-            Comerçar
+            <a href="/html/register.html">Começar</a>
           </button>
         </div>
       </div>
-    </section>
+    </div>
   </body>
 </html>

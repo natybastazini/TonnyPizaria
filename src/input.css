@@ -1,30 +1,27 @@
 @import "tailwindcss";
 
 :root {
-
-    /* cores */
-    --orange-1: #F27706;
-    --orange-2: #FFE3CA;
-    --greey-1:  #7D7D7D;
-    --greey-2: #DBDBDB;
-    --greey-3: #4F4E4E;
-    --green-1: #199570;
-    --degrade-red: #BE4040;
-
+  /* cores */
+  --orange-1: #f27706;
+  --orange-2: #ffe3ca;
+  --gray-1: #7d7d7d;
+  --gray-2: #dbdbdb;
+  --gray-3: #4f4e4e;
+  --green-1: #199570;
+  --gradient-red: #be4040;
 }
 
 @theme {
-    
-    /* colors */
-    --color-orange-1: var(--orange-1);
-    --color-orange-2: var(--orange-2);
-    --color-greey-1: var(--greey-1);
-    --color-greey-2: var(--greey-2);
-    --color-greey-3: var(--greey-3);
-    --color-green-1: var(--green-1);
-    --color-degrade-red: var(--degrade-red);
+  /* colors */
+  --color-orange-1: var(--orange-1);
+  --color-orange-2: var(--orange-2);
+  --color-gray-1: var(--gray-1);
+  --color-gray-2: var(--gray-2);
+  --color-gray-3: var(--gray-3);
+  --color-green-1: var(--green-1);
+  --color-gradient-red: var(--gradient-red);
 
-    /* fontes */
-    --font-lobster: "Lobster", cursive;
-    --font-inter: "Inter", sans-serif;
+  /* fontes */
+  --font-lobster: "Lobster", cursive;
+  --font-inter: "Inter", sans-serif;
 }
