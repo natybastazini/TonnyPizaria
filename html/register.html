@@ -36,19 +36,17 @@
           <h2 class="text-4xl font-thin">Crie sua conta</h2>
           <div class="flex flex-row gap-1.5">
             <p class="font-extralight">Já possuí conta?</p>
-            <a
-              class="font-medium underline decoration-1"
-              href="desenvolvimento.html"
+            <a class="font-medium underline decoration-1" href="login.html"
               >Clique aqui</a
             >
           </div>
         </div>
       </div>
       <div class="h-full w-3/6 flex items-center">
-        <form class="flex flex-col gap-4 h-4/5" action="">
+        <form class="flex flex-col gap-4 h-4/5 w-full" action="">
           <label for="nome"></label>
           <div
-            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-80 h-9 rounded-3xl gap-2"
+            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-sm h-10 rounded-3xl gap-2"
           >
             <img class="size-4" src="../img/nome_logo.png" alt="nome" />
             <input
@@ -62,7 +60,7 @@
           </div>
           <label for="data"></label>
           <div
-            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-80 h-9 rounded-3xl gap-2"
+            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-sm h-10 rounded-3xl gap-2"
           >
             <img
               class="size-4"
@@ -80,7 +78,7 @@
           </div>
           <label for="email"></label>
           <div
-            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-80 h-9 rounded-3xl gap-2"
+            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-sm h-10 rounded-3xl gap-2"
           >
             <img class="size-4" src="../img/email_logo.png" alt="email" />
             <input
@@ -94,7 +92,7 @@
           </div>
           <label for="senha"></label>
           <div
-            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-80 h-9 rounded-3xl gap-2"
+            class="flex flex-row justify-center items-center bg-white border-2 border-gray-2 w-sm h-10 rounded-3xl gap-2"
           >
             <img class="size-4" src="../img/senha_logo.png" alt="senha" />
             <input
@@ -107,13 +105,11 @@
             />
           </div>
 
-          <div
-            class="flex mt-auto pb-8 hover:scale-(1.2) transition-transform pl-2"
-          >
+          <div class="flex mt-auto pb-8 pl-2">
             <button
-              class="font-inter font-bold bg-green-1 text-white px-12 py-4 rounded-xl hover:scale-105 transition-all duration-200 cursor-pointer"
+              class="flex justify-center items-center font-inter font-bold bg-green-1 text-white px-12 py-4 w-1/4 h-10 rounded-4xl transition hover:scale-105 duration-700 cursor-pointer"
             >
-              <input type="submit" value="Enviar" />
+              <input type="submit" value="Criar" />
             </button>
           </div>
         </form>
